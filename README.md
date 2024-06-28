@@ -59,10 +59,15 @@ Lastly, you will need to convert the .json files to a single file that will be u
 python labelme2coco.py ./ result --labels labels.txt
 ```
 ### Ready?! 
-
 Your folder structure after annotating your data should look like the following. 
 <p align = "center">
    <img src = "https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/images/folderStructure.png" width = "400px" height = "300px"></img>
+</p>
+
+## Start Create ML
+Start Create ML by opening XCode and going to the developer tools as shown in the image below. 
+<p align = "center">
+   <img src = "https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/images/startCML.png"> </img>
 </p>
 
 ## Help
