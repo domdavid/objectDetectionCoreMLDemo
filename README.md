@@ -5,7 +5,7 @@ The purpose of this mini-project/demo is to demonstrate the use of Apple's frame
 <img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/gifs/detectCars.gif" width="400" height="300" />
 <img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/gifs/detectDog.gif" width="400" height="300" />
 </p>
-<p align = "center">Image shows the model identifying the objects it was trained on.</p>
+<p align = "center">The animations shows the model identifying the objects it was trained on.</p>
 ## Description
 
 Using Create ML, this project outlines the necessary steps in training custom models with your own data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. By labeling your data correctly and training a model, you will be able to use the model to detect objects in images such as stills or videos. 
