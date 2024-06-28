@@ -5,25 +5,25 @@ The purpose of this mini-project/demo is to demonstrate the use of Apple's frame
 <img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/gifs/detectCars.gif" width="400" height="300" />
 <img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/gifs/detectDog.gif" width="400" height="300" />
 </p>
-<p align = "center">Fig. 1. The animations shows the model identifying the objects (outlined by the rectangular bounding box) it was trained on.</p>
+<p align = "center">Fig. 1. The animations show the model identifying the objects (outlined by the rectangular bounding box) it was trained on.</p>
 
 ## Description
 
-Using Create ML, this project outlines the necessary steps in training custom models with your own data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. By labeling your data correctly and training a model, you will be able to use the model to detect objects in images such as stills or videos.
+Using Create ML, this project outlines the necessary steps in training custom models with your data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. Labeling your data correctly and training a model will allow you to use the model to detect objects in images such as stills or videos.
 
-I decided to focus on using Core ML as it can potentially be a quick way for me to introduce these topics to my students in the context of iOS app development. Using this framework would allow my students to play around with a many important concepts in deep learning while giving them practical applications that will run on their devices immediately.
+I decided to focus on using Core ML as it can be a quick way for me to introduce these topics to my students in the context of iOS app development. Using this framework would allow my students to play around with many important concepts in deep learning while giving them practical applications that will run on their devices immediately.
 
 ## Getting Started
 
 ### Dependencies
 
-* Since this demo uses Create ML, you will need to be running a MacOS operating system that is compatible with the latest versions by downloading the latest copy of [XCode](https://developer.apple.com/xcode/). You can find this easily on the Apple App Store.
-* On that note, the steps in labeling images is transferrable to training models using other methods such as [Google Collab](https://colab.research.google.com/) or [Jupyter Notebook](https://jupyter.org/). 
+* Since this demo uses Create ML, you will need to run a MacOS operating system that is compatible with the latest versions by downloading the latest copy of [XCode](https://developer.apple.com/xcode/). You can find this easily on the Apple App Store.
+* On that note, the steps in labeling images are transferrable to training models using other methods such as [Google Collab](https://colab.research.google.com/) or [Jupyter Notebook](https://jupyter.org/). 
 
 ### Installs
 
 * [labelme](https://github.com/labelmeai/labelme?tab=readme-ov-file#starter-guide)
-* You will need to install label me as a way to easily label your own data to train models. Please see the instructions in the link.
+* You will need to install _labelme_ as a way to easily label your data to train models. Please see the instructions in the link.
 
 ### Data Files
 * Have a handful of images you will label for detection in a folder you can easily locate on your computer. Or use the provided images in the repository linked [here](https://github.com/TBSDrJ/YOLO-Attempt-1). 
@@ -41,7 +41,7 @@ Once the program executes, click the Open Dir button and direct it to the folder
 
 ### Labeling Your Data
 
-* Use the Next Image and Prev Image buttons to go through your image data. For each image, create Polygons that surrounds the objects you are trying to label. Label these accordingly. For example, if you're labeling a bunch of bananas then you will likely use banana as a label as you draw polygons.
+* Use the Next Image and Prev Image buttons to go through your image data. For each image, create Polygons that surround the objects you are trying to label. Label these accordingly. For example, if you're labeling a bunch of bananas then you will likely use banana as a label as you draw polygons.
 * Unless you're going to be segmenting images (separating objects and cutting them out), you can just draw rectangles!
 <p align = "center">
 <img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/examplePolygon.jpg" width="300" height="250" />
