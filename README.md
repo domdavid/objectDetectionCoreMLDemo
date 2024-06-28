@@ -1,5 +1,5 @@
 # Object Detection and Image Classification using coreML
-The purpose of this mini-project/demo is to demonstrate the use of Apple's framework to integrate learning models into apps. The focus is on the setup and the use of Create ML to train custom models to recognize objects in images. As this is a demo, the training is incomplete and thus is not perfect. :)
+The purpose of this mini-project/demo is to demonstrate the use of Apple's framework to integrate learning models into apps. The focus is on the setup and the use of Create ML to train custom models to recognize objects in images. As this is a demo, the training is incomplete and thus is not perfect. :) A lot of the steps here are similar to those that you would perform when training on Google Collab or Jupyter Notebook.
 
 <p float = "left" align = "center">
 <img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/gifs/detectCars.gif" width="400" height="300" />
@@ -9,7 +9,7 @@ The purpose of this mini-project/demo is to demonstrate the use of Apple's frame
 
 ## Description
 
-Using Create ML, this project outlines the necessary steps in training custom models with your own data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. By labeling your data correctly and training a model, you will be able to use the model to detect objects in images such as stills or videos. 
+Using Create ML, this project outlines the necessary steps in training custom models with your own data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. By labeling your data correctly and training a model, you will be able to use the model to detect objects in images such as stills or videos.
 
 I decided to focus on using Core ML as it can potentially be a quick way for me to introduce these topics to my students in the context of iOS app development. Using this framework would allow my students to play around with a many important concepts in deep learning while giving them practical applications that will run on their devices immediately.
 
@@ -17,7 +17,7 @@ I decided to focus on using Core ML as it can potentially be a quick way for me 
 
 ### Dependencies
 
-* Since this demo uses Create ML, you will need to be running a MacOS operating system that is compatible with the latest verions by downloading the latest version of [XCode](https://developer.apple.com/xcode/). You can find this easily on the Apple App Store.
+* Since this demo uses Create ML, you will need to be running a MacOS operating system that is compatible with the latest versions by downloading the latest copy of [XCode](https://developer.apple.com/xcode/). You can find this easily on the Apple App Store.
 * On that note, the steps in labeling images is transferrable to training models using other methods such as [Google Collab](https://colab.research.google.com/) or [Jupyter Notebook](https://jupyter.org/). 
 
 ### Installs
