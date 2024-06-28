@@ -84,6 +84,10 @@ You can drag and drop the folder into the training Data Box in Create ML or you 
    <img src = "https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/images/train.png" width = "300px" height = "300px"> </img>
 </p>
 
+### Train!
+You are all set to start training. One hiccup that you might run into is that Create ML may not find classes for the annotations you made. Open the .json file and make sure the labels are correct. Your file format and structure should be similar to [mine](https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/result/annotations.createml.json)
+
+At this point, read up on how to train models for object detection so you can play around with the different parameters you can fine tune! 
 
 ## Help
 
