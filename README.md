@@ -15,6 +15,7 @@ Using Create ML, this project outlines the necessary steps in training custom mo
 ### Dependencies
 
 * Since this demo uses Create ML, you will need to be running a MacOS operating system that is compatible with the latest verions by downloading the latest version of [XCode](https://developer.apple.com/xcode/). You can find this easily on the Apple App Store.
+* On that note, the steps in labeling images is transferrable to training models using other methods such as [Google Collab](https://colab.research.google.com/) or [Jupyter Notebook](https://jupyter.org/). 
 
 ### Installs
 
