@@ -1,5 +1,5 @@
 # Object Detection and Image Classification using coreML
-The purpose of this mini-project/demo is to demonstrate the use of Apple's framework to integrate learning models into apps. The focus is on the setup and the use of Create ML to train custom models to recognize objects in images. 
+The purpose of this mini-project/demo is to demonstrate the use of Apple's framework to integrate learning models into apps. The focus is on the setup and the use of Create ML to train custom models to recognize objects in images. As this is a demo, the training is incomplete and thus is not perfect. :)
 
 <p float = "left" align = "center">
 <img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/gifs/detectCars.gif" width="400" height="300" />
