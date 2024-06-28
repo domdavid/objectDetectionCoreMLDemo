@@ -3,7 +3,7 @@
 The purpose of this mini-project/demo is to demonstrate the use of Apple's framework to integrate learning models into apps. The focus is on the setup and the use of Create ML to train custom models to recognize objects in images. 
 ## Description
 
-Using Create ML, this project outlines the necessary steps in training custom models with your own data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. 
+Using Create ML, this project outlines the necessary steps in training custom models with your own data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. By labeling your data correctly and training a model, you will be able to use the model to detect objects in images such as stills or videos. 
 
 ## Getting Started
 
