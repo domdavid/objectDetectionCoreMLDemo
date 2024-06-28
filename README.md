@@ -111,5 +111,5 @@ Feel free to use...
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [labelme]([https://gist.github.com/zenorocha/4526327](https://github.com/labelmeai/labelme))
+* [labelme](https://github.com/labelmeai/labelme)
 * [coremltools](https://apple.github.io/coremltools/docs-guides/)
