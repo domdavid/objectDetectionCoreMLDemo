@@ -49,7 +49,8 @@ Once the program executes, click the Open Dir button and direct it to the folder
 
 ### Encode to COCO Format
 
-While labelme simplifies adding labels to image data, COCO is a much more popular format for the annotations. Download the [script](https://github.com/fcakyon/labelme2coco/blob/master/labelme2coco/labelme2coco.py) to your image folder (the one with annotations). The folder that contained your original image files should now have a bunch of .json files.
+While labelme simplifies adding labels to image data, COCO is a much more popular format for the annotations. Download the [script](https://github.com/fcakyon/labelme2coco/blob/master/labelme2coco/labelme2coco.py) to your image folder (the one with annotations). The folder that contained your original image files should now have a bunch of .json files. Once the script is in the same folder as your images, you can run the command below in your terminal. This will create a new folder called result. The folder will contain a .json file (with your annotations), a jpeg folder, and a visualization folder (containing your images with the overlayed labels).
+
 ```
 python labelme2coco.py ./ result --labels labels.txt
 ```
