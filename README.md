@@ -51,6 +51,13 @@ While labelme simplifies adding labels to image data, COCO is a much more popula
 ```
 python labelme2coco.py ./ result --labels labels.txt
 ```
+### Generate Create ML .json File
+
+Lastly, you will need to convert the .json files to a single file that will be used in Create ML. You can use the provided [script](https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/convert.py). Run it in the terminal similar to the previous step. 
+
+```
+python labelme2coco.py ./ result --labels labels.txt
+```
 
 ## Help
 
