@@ -64,11 +64,26 @@ Your folder structure after annotating your data should look like the following.
    <img src = "https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/images/folderStructure.png" width = "400px" height = "300px"></img>
 </p>
 
-## Start Create ML
+### Start Create ML
+
 Start Create ML by opening XCode and going to the developer tools as shown in the image below. 
 <p align = "center">
    <img src = "https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/images/startCML.png" width = "300px" height = "300px"> </img>
 </p>
+
+### Create a new Object Detection Project
+
+<p align = "center">
+   <img src = "https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/images/cmlCreate.png" width = "300px" height = "300px"> </img>
+</p>
+
+### Reference the training folder
+
+You can drag and drop the folder into the training Data Box in Create ML or you can click on the + button and direct it to the folder. This is why you need to know where your folders are located. Take the time now to get organized if you need to so you can navigate your project files easily.
+<p align = "center">
+   <img src = "https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/images/train.png" width = "300px" height = "300px"> </img>
+</p>
+
 
 ## Help
 
