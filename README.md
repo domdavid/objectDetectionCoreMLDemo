@@ -1,7 +1,6 @@
 # Object Detection and Image Classification using coreML
 
 The purpose of this mini-project/demo is to demonstrate the use of Apple's framework to integrate learning models into apps. The focus is on the setup and the use of Create ML to train custom models to recognize objects in images. 
-
 ## Description
 
 Using Create ML, this project outlines the necessary steps in training custom models with your own data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. 
@@ -31,6 +30,8 @@ Once the program executes, click the Open Dir button and direct it to the folder
 ### Labeling Your Data
 * Use the Next Image and Prev Image buttons to go through your image data. For each image, create Polygons that surrounds the objects you are trying to label. Label these accordingly. For example, if you're labeling a bunch of bananas then you will likely use banana as a label as you draw polygons.
 * Unless you're going to be segmenting images (separating objects and cutting them out), you can just draw rectangles!
+
+<img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/examplePolygon.jpg" width="300" height="250" />
 
 
 ## Help
