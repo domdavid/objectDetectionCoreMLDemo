@@ -11,6 +11,8 @@ The purpose of this mini-project/demo is to demonstrate the use of Apple's frame
 
 Using Create ML, this project outlines the necessary steps in training custom models with your own data! This is from the perspective of a high school / junior college computer science instructor. I will be sharing my experience labeling image data and training models using Create ML. By labeling your data correctly and training a model, you will be able to use the model to detect objects in images such as stills or videos. 
 
+I decided to focus on using Core ML as it can potentially be a quick way for me to introduce these topics to my students in the context of iOS app development. Using this framework would allow my students to play around with a lot of the important concepts in deep learning while giving them practical applications that will run on their devices immediately.
+
 ## Getting Started
 
 ### Dependencies
