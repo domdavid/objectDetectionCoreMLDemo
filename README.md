@@ -36,12 +36,21 @@ Once the program executes, click the Open Dir button and direct it to the folder
 <p align = "center">
 <img src = "https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/images/open.png" width = "400px" height = "300px"></img>
 </p>
+
 ### Labeling Your Data
+
 * Use the Next Image and Prev Image buttons to go through your image data. For each image, create Polygons that surrounds the objects you are trying to label. Label these accordingly. For example, if you're labeling a bunch of bananas then you will likely use banana as a label as you draw polygons.
 * Unless you're going to be segmenting images (separating objects and cutting them out), you can just draw rectangles!
 <p align = "center">
 <img src="https://github.com/domdavid/objectDetectionCoreMLDemo/blob/main/examplePolygon.jpg" width="300" height="250" />
 </p>
+
+### Encode to COCO Format
+
+While labelme simplifies adding labels to image data, COCO is a much more popular format for the annotations. Download the [script](https://github.com/fcakyon/labelme2coco/blob/master/labelme2coco/labelme2coco.py) to your image folder (the one with annotations). The folder that contained your original image files should now have a bunch of .json files.
+```
+python labelme2coco.py ./ result --labels labels.txt
+```
 
 ## Help
 
